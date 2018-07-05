@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+
+
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" /></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Test intégrateur HTML/CSS </h1>
+        <p>Ce test a pour but d'évaluer vos compétences en intégration et se divise en 4 questions <br>
+          - Le framework twitter bootstrap est directement inclus dans les sources <a href="http://getbootstrap.com/css" target="_blank">Twitter Bootstrap</a> <br>
+          - JQuery est également inclu <br>
+          - le fichier css dans lequel travailler est déjà créé : css/main.css <br>
+          - le fichier js dans lequel travailler est déjà créé : js/main.js<br>
+
+          La modification du DOM est autorisée et il est vivement recommandé d'ajouter vos propres
+          classes/identifiants css.<br>
+
+            Une fois le test terminé vous pouvez renvoyer le dossier au format .zip à l'adresse christophe@twil.fr
+
+
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+        <h2>Question 1 : Alignement du logo</h2>
+        <p>
+          Le logo Twil de cette page n'est pas aligné comme souhaité, on aimerait qu'il soit
+
+          au centre de la barre de navigation. A vous de faire les modifications nécessaires !
+
+        </p>
+
+         <h2>Question 2 : Alignement</h2>
+        <p>
+          Voici une liste de produits Twil, nous souhaiterions les aligner de la manière suivante: <br>
+            - 4 produits par colonne pour les devices > 1200px<br>
+            - 3 produits par colonne pour les devices > 992px<br>
+            - 2 produits par colonne pour les devices > 768px<br>
+
+        </p>
+        <!-- Début de la liste de produits à styliser -->
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Bleu de Mer </h3>
+              <img src="./img/bleu-de-mer.png" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Bleu de Mer </h3>
+              <img src="./img/bleu-de-mer.png" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Bleu de Mer </h3>
+              <img src="./img/bleu-de-mer.png" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Bleu de Mer </h3>
+              <img src="./img/bleu-de-mer.png" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Colette </h3>
+              <img src="./img/colette.jpeg" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Colette </h3>
+              <img src="./img/colette.jpeg" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Colette </h3>
+              <img src="./img/colette.jpeg" />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h3>Colette </h3>
+              <img src="./img/colette.jpeg" />
+            </div>
+        </div>
+        <!-- Fin de la liste de produits à styliser -->
+        <h2>Question 3 : Intégration</h2>
+        <p>
+            Nous aimerions intéger une page HTML/CSS sur un accord met et vin TWIL , voici les instructions : <br>
+            - Le fichier html dans lequel effectuer l'intégration est :  <a href="integration.html" target="_blank">integration.html</a><br>
+            - toute modification du DOM est autorisée dans integration.html<br>
+            - Vous pouvez utiliser n'importe quelle "font" classique , l'évaluation ne se fera pas sur les fonts<br>
+            - Les images à utiliser se trouvent dans le dossier img/question-3/<br>
+            - Voici le résultat attendu : <br>
+            <img src="img/question-3/Question-3.png" />
+
+        </p>
+
+
+        <!-- Fin de la liste de produits à styliser -->
+        <h2>Question 4 : Javascript/JQuery</h2>
+        <p>
+            Cette partie s'addresse aux candidats qui ont des notions de javascript/ jQuery : <br>
+             a - Au clic, Changer la couleur du lien "Je veux devenir bleu" en bleu<br>
+             b - Changer aussi le texte du lien en "Je veux devenir orange"  <br>
+             c - Au clic, Changer la couleur du lien "Je veux devenir orange" en orange et son texte   <br>
+
+            <a  onclick="changerCouleur(id); changerText(id); changerId(id)" href="#" class="color" style="color:white; width:200px; background-color:darkorange;" id="orange" >Je veux devenir bleu !</a>
+        </p>
+
+        <span ></span>
+      <footer>
+        <p>&copy; Twil 2017</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
